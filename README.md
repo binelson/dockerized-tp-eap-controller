@@ -2,7 +2,7 @@
 
 ## Overview
 
-The point of this is to have a simple dockerized container which can run the TP-Link EAP Controller
+This repo provides a simple dockerized container which can run the [TP-Link EAP Controller](http://www.tp-link.com/common/Spotlight/EAP_controller.html)
 
 To simply run this, you can do the following:
 
