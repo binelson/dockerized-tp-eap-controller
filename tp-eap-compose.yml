@@ -1,0 +1,9 @@
+version: '2'
+services:
+  tp-eap-controller:
+    image: binelson/tp-eap-controller:2.4.8
+    restart: always
+    volumes:
+      - /opt/tp-eap-controller/db:/opt/tpeap/EAPController/data/db
+    network_mode: host
+    
